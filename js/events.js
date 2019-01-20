@@ -8,7 +8,7 @@ $(document).ready(() => {
     render_events();
     function render_events(){
         $.ajax({
-            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/events.json`,
+            url: `https://begovicnikola.github.io/PijacaApp/assets/json/events.json`,
             dataType: 'json',
             success: (data) => {
                 let html = ``;
@@ -43,7 +43,7 @@ $(document).ready(() => {
     // Render Single Product
     function render_event(event_id){
         $.ajax({
-            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/events.json`,
+            url: `https://begovicnikola.github.io/PijacaApp/assets/json/events.json`,
             dataType: 'json',
             success: (data) => {
                 let result = data.filter(e => e.id == event_id);
