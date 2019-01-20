@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "type": "meso",
+        "name": "paradajz",
+        "img": "paradajz.jpg",
+        "price": "330 din/kg"
+    },
+    {
+        "id": 2,
+        "type": "voce",
+        "name": "krompir",
+        "img": "paradajz.jpg",
+        "price": "330 din/kg"
+    },
+    {
+        "id": 3,
+        "type": "povrce",
+        "name": "kupus",
+        "img": "paradajz.jpg",
+        "price": "330 din/kg"
+    },
+    {
+        "id": 4,
+        "type": "povrce",
+        "name": "sargarepa",
+        "img": "paradajz.jpg",
+        "price": "330 din/kg"
+    },
+    {
+        "id": 5,
+        "type": "voce",
+        "name": "luk",
+        "img": "paradajz.jpg",
+        "price": "330 din/kg"
+    },
+    {
+        "id": 6,
+        "type": "voce",
+        "name": "tikvice",
+        "img": "paradajz.jpg",
+        "price": "330 din/kg"
+    }
+]
