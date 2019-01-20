@@ -104,13 +104,13 @@ $(document).ready(() => {
                         parsedData.forEach(product => {
                             html += `
                             <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                                <div class="card">
+                                <div class="card p-3">
                                     <div class="rounded-top">
-                                        <img class="card-img-top" src="assets/img/${product.img}" alt="${product.name}">
+                                        <img class="border card-img-top" src="assets/img/${product.img}" alt="${product.name}">
                                     </div>
                                     <div class="card-body rounded-bottom d-flex flex-column align-items-center">
                                         <h3 class="mb-0">${product.name}</h3>
-                                        <p>${product.price}</p>
+                                        <p class="mb-0">${product.price}</p>
                                     </div>
                                 </div>
                             </div>`;
@@ -119,13 +119,13 @@ $(document).ready(() => {
                         data.forEach(product => {
                             html += `
                             <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                                <div class="card">
+                                <div class="card p-3">
                                     <div class="rounded-top">
-                                        <img class="card-img-top" src="assets/img/${product.img}" alt="${product.name}">
+                                        <img class="border card-img-top" src="assets/img/${product.img}" alt="${product.name}">
                                     </div>
                                     <div class="card-body rounded-bottom d-flex flex-column align-items-center">
                                         <h3 class="mb-0">${product.name}</h3>
-                                        <p>${product.price}</p>
+                                        <p class="mb-0">${product.price}</p>
                                     </div>
                                 </div>
                             </div>`;
@@ -161,13 +161,13 @@ $(document).ready(() => {
                     result.forEach(product => {
                     html += `
                         <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                            <div class="card">
+                            <div class="card p-3">
                                 <div class="rounded-top">
-                                    <img class="card-img-top" src="assets/img/${product.img}" alt="${product.name}">
+                                    <img class="border card-img-top" src="assets/img/${product.img}" alt="${product.name}">
                                 </div>
                                 <div class="card-body rounded-bottom d-flex flex-column align-items-center">
                                     <h3 class="mb-0">${product.name}</h3>
-                                    <p>${product.price}</p>
+                                    <p class="mb-0">${product.price}</p>
                                 </div>
                             </div>
                         </div>`;

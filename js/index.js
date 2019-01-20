@@ -29,4 +29,14 @@ $(document).ready(() => {
             }
         });
     }
+
+    $('#cart').click(() => {
+        $.MessageBox(`
+            <div class="d-flex flex-column justify-content-center text-center">
+                <p>Korpa</p>
+                <span class="btn btn-success" href="files/docs.pdf" download>Kupi</span>
+            </div>
+        `);
+    });
+    
 });

@@ -33,7 +33,7 @@
                         <a class="nav-link" href="events.html">Manifestacije</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="recepies.html">Recepti</a>
+                        <a class="nav-link" href="recipes.html">Recepti</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="cart.html">Korpa</a>
@@ -48,10 +48,23 @@
                 <input id="search" type="text" class="form-control" placeholder="Naziv proizvoda..."/>
             </div>
             <div id="filter" class="col-md-3">
+                <h3 class="px-3">Kategorija</h3>
                 <ul class="w-100 px-3 d-flex flex-column justify-content-between">
-                    <li><input type="checkbox" value="voce" class="checkbox_type">Voce</li>
-                    <li><input type="checkbox" value="povrce" class="checkbox_type">Povrce</li>
-                    <li><input type="checkbox" value="meso" class="checkbox_type">Meso</li>
+                    <li class="position-relative checkbox_holder">
+                        <input type="checkbox" id="voce" value="voce" class="checkbox_type">
+                        <label for="voce"></label>
+                        <span class="ml-3">Voce</span>
+                    </li>
+                    <li class="position-relative checkbox_holder">
+                        <input type="checkbox" id="povrce" value="povrce" class="checkbox_type">
+                        <label for="povrce"></label>
+                        <span class="ml-3">Povrce</span>
+                    </li>
+                    <li class="position-relative checkbox_holder">
+                        <input type="checkbox" id="meso" value="meso" class="checkbox_type">
+                        <label for="meso"></label>
+                        <span class="ml-3">Meso</span>
+                    </li>
                 </ul>
             </div>
             <div class="col-md-9">
