@@ -7,7 +7,7 @@ $(document).ready(() => {
     render_news();
     function render_news(){
         $.ajax({
-            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/news.json`,
+            url: `https://begovicnikola.github.io/PijacaApp/assets/json/news.json`,
             dataType: 'json',
             success: (data) => {
                 let html = ``;
