@@ -15,7 +15,7 @@ $(document).ready(() => {
                 data.forEach(product => {
                     html += `
                         <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                            <div class="card p-3">
+                            <div class="card product_card p-3">
                                 <div class="rounded-top">
                                     <img class="card-img-top border" src="assets/img/${product.img}" alt="${product.name}">
                                 </div>
@@ -104,7 +104,7 @@ $(document).ready(() => {
                         parsedData.forEach(product => {
                             html += `
                             <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                                <div class="card p-3">
+                                <div class="card product_card p-3">
                                     <div class="rounded-top">
                                         <img class="border card-img-top" src="assets/img/${product.img}" alt="${product.name}">
                                     </div>
@@ -119,7 +119,7 @@ $(document).ready(() => {
                         data.forEach(product => {
                             html += `
                             <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                                <div class="card p-3">
+                                <div class="card product_card p-3">
                                     <div class="rounded-top">
                                         <img class="border card-img-top" src="assets/img/${product.img}" alt="${product.name}">
                                     </div>
@@ -134,6 +134,13 @@ $(document).ready(() => {
                     // Populating Container
                     product_container.innerHTML = '';
                     products_container.innerHTML = html;
+                    // Replacing Render of Users with a Single User on Click
+                    var product_name = '';
+                    $('.products_item').click(function(e){
+                        product_name = e.currentTarget.attributes[1].value;
+                        console.log(product_name);
+                        render_product(product_name);
+                    });
                 }
             });
         });
@@ -161,7 +168,7 @@ $(document).ready(() => {
                     result.forEach(product => {
                     html += `
                         <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                            <div class="card p-3">
+                            <div class="card product_card p-3">
                                 <div class="rounded-top">
                                     <img class="border card-img-top" src="assets/img/${product.img}" alt="${product.name}">
                                 </div>
@@ -173,6 +180,13 @@ $(document).ready(() => {
                         </div>`;
                         product_container.innerHTML = '';
                         products_container.innerHTML = html;
+                        // Replacing Render of Users with a Single User on Click
+                        var product_name = '';
+                        $('.products_item').click(function(e){
+                            product_name = e.currentTarget.attributes[1].value;
+                            console.log(product_name);
+                            render_product(product_name);
+                        });
                     });
                 }
             });

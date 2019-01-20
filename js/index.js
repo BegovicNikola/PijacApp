@@ -15,10 +15,10 @@ $(document).ready(() => {
                     html += `
                     <div class="card w-100">
                         <div class="card-body text-justified">
-                            <h5 class="card-title">${news.title}</h5>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <h6 class="card-subtitle">${news.subtitle}</h6>
-                                <p class="mb-0">${news.date}</p>
+                            <h5 class="card-title primary_color mb-0">${news.title}</h5>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <h6 class="card-subtitle secondary_color">${news.subtitle}</h6>
+                                <p class="mb-0 secondary_color">${news.date}</p>
                             </div>
                             <p class="card-text">${news.description}</p>
                         </div>
