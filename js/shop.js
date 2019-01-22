@@ -14,13 +14,13 @@ $(document).ready(() => {
                 let html = ``;
                 data.forEach(product => {
                     html += `
-                        <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                            <div class="card product_card p-3">
+                        <div class="products_item mb-4 col-sm-3" data-product="${product.name}">
+                            <div class="card product_card px-3 pt-3">
                                 <div class="rounded-top">
                                     <img class="card-img-top border" src="assets/img/${product.img}" alt="${product.name}">
                                 </div>
                                 <div class="card-body rounded-bottom d-flex flex-column align-items-center">
-                                    <h3 class="mb-0">${product.name}</h3>
+                                    <h6 class="mb-0">${product.name}</h5>
                                     <p class="mb-0">${product.price}</p>
                                 </div>
                             </div>
@@ -50,16 +50,74 @@ $(document).ready(() => {
                 console.log(result);
                 let html = ``;
                 html += `
-                    <div class="col-4">
-                        <img class="w-100" src="assets/img/${result[0].img}" alt="${result[0].name}"/>
-                    </div>
-                    <div class="col-8">
-                        <h2>${result[0].name}</h2>
-                        <p>${result[0].description}</p>
+                    <div class="col-12">
+                        <div class="card p-3">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h4>${result[0].name}</h4>
+                                </div>
+                                <div class="col-3">
+                                    <img class="w-100 border rounded" src="assets/img/${result[0].img}" alt="${result[0].name}"/>
+                                </div>
+                                <div class="col-9">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center" scope="col">Vrsta</th>
+                                                <th class="text-center" scope="col">Proizvođač</th>
+                                                <th class="text-center" scope="col">Količina</th>
+                                                <th class="text-center" scope="col">Cena</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">
+                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                        ${type_of_type(result[0].mark)}
+                                                    </select>
+                                                </th>
+                                                <td>
+                                                    <select class="form-control" id="exampleFormControlSelect1">
+                                                        ${type_of_type(result[0].produced_by)}
+                                                    </select>
+                                                </td>
+                                                <td class="text-center">
+                                                    <input id="qu" class="form-control" type="number" placeholder="0" min="0"/>
+                                                </td>
+                                                <td class="text-center pt-3">${result[0].price}</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="text-center pt-3" scope="row">Ukupno</th>
+                                                <td class="text-right pt-3" colspan="2">1234.00</td>
+                                                <td>
+                                                    <button class="w-100 btn btn-success">Kupi</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-6 mt-3">
+                                    <h5 class="text-uppercase my-3">Detaljnije o proizvodu</h5>
+                                    <p>${result[0].description}</p>
+                                </div>
+                                <div class="col-6 mt-3">
+                                    <h5 class="text-uppercase my-3">Mesto porekla</h5>
+                                    <img class="w-100 rounded border" src="assets/img/mapa.png" alt=""/>
+                                </div>
+                            </div>
+                        </div>
                     </div>`;
                 // Filling in Content while erasing everything else
                 products_container.innerHTML = '';
                 product_container.innerHTML = html;
+                // Rendering Types of Product
+                function type_of_type(arrays){
+                    let html = '';
+                    arrays.forEach(function(e){
+                        html += `<option>${e}</option>`;
+                    });
+                    return html;
+                }
             }
         });
     }
@@ -103,13 +161,13 @@ $(document).ready(() => {
                     if(checkedFilters.length){
                         parsedData.forEach(product => {
                             html += `
-                            <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                                <div class="card product_card p-3">
+                            <div class="products_item mb-4 col-sm-3" data-product="${product.name}">
+                                <div class="card product_card px-3 pt-3">
                                     <div class="rounded-top">
                                         <img class="border card-img-top" src="assets/img/${product.img}" alt="${product.name}">
                                     </div>
                                     <div class="card-body rounded-bottom d-flex flex-column align-items-center">
-                                        <h3 class="mb-0">${product.name}</h3>
+                                        <h6 class="mb-0">${product.name}</h6>
                                         <p class="mb-0">${product.price}</p>
                                     </div>
                                 </div>
@@ -118,13 +176,13 @@ $(document).ready(() => {
                     }else{
                         data.forEach(product => {
                             html += `
-                            <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                                <div class="card product_card p-3">
+                            <div class="products_item mb-4 col-sm-3" data-product="${product.name}">
+                                <div class="card product_card px-3 pt-3">
                                     <div class="rounded-top">
                                         <img class="border card-img-top" src="assets/img/${product.img}" alt="${product.name}">
                                     </div>
                                     <div class="card-body rounded-bottom d-flex flex-column align-items-center">
-                                        <h3 class="mb-0">${product.name}</h3>
+                                        <h6 class="mb-0">${product.name}</h6>
                                         <p class="mb-0">${product.price}</p>
                                     </div>
                                 </div>
@@ -167,13 +225,13 @@ $(document).ready(() => {
 
                     result.forEach(product => {
                     html += `
-                        <div class="products_item mb-4 col-sm-4" data-product="${product.name}">
-                            <div class="card product_card p-3">
+                        <div class="products_item mb-4 col-sm-3" data-product="${product.name}">
+                            <div class="card product_card px-3 pt-3">
                                 <div class="rounded-top">
                                     <img class="border card-img-top" src="assets/img/${product.img}" alt="${product.name}">
                                 </div>
                                 <div class="card-body rounded-bottom d-flex flex-column align-items-center">
-                                    <h3 class="mb-0">${product.name}</h3>
+                                    <h5 class="mb-0">${product.name}</h5>
                                     <p class="mb-0">${product.price}</p>
                                 </div>
                             </div>

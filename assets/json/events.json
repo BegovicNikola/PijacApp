@@ -2,61 +2,21 @@
     {
         "id": 1,
         "title": "darovi netaknute prirode",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "banner": "assets/img/darovi1.png",
+        "description": [
+            "Posetioci će moći",
+            "Ponekad reči nisu dovoljne da bi se opisalo sve čime sela Stare planine raspolažu, zato je najbolje \"doći, videti i doživeti\". Od same manifestacije do gotovo netaknute prirode tik iza poslednje krivine na izlazu iz sela, posetiocima je omogućena degustacija jela spramena na tradicionalni način, prema prema brižljivo čuvanim receptima domaćica. Banice, jela od krompira, peglane kobasice, pirotski kačkavalj, kao i voće i povrće uzgajano u Dojkincima, samo su neki od proizvoda koji se mogu naci na ovom sajmu."
+        ],
         "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
+            "assets/img/darovi2.png", 
+            "assets/img/darovi3.png", 
+            "assets/img/darovi4.png",
+            "assets/img/darovi5.png"
         ]
     },
     {
         "id": 2,
         "title": "sajam pirotske peglane kobasice",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
-        ]
-    },
-    {
-        "id": 3,
-        "title": "pirotska jagnjijada",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
-        ]
-    },
-    {
-        "id": 4,
-        "title": "sajam staroplaninskih jela",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
-        ]
-    },
-    {
-        "id": 5,
-        "title": "sajam pirotske peglane kobasice",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
-        ]
-    },
-    {
-        "id": 6,
-        "title": "izlozba rakije, vina i tradicionalnih jela",
         "banner": "assets/img/kupus.jpg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "gallery": [

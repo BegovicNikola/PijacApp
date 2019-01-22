@@ -5,7 +5,7 @@
 body{
     background-image: url("../assets/img/pozadina.png");
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-color: #cccccc;
 }
@@ -41,11 +41,11 @@ ul{
     border: 2px solid #D1C0AC;
     border-radius: 50%;
     cursor: pointer;
-    height: 28px;
+    height: 24px;
     left: 0;
     position: absolute;
-    top: 0;
-    width: 28px;
+    top: -1px;
+    width: 24px;
 }
 
 .checkbox_holder label:after {
@@ -54,12 +54,12 @@ ul{
     border-right: none;
     content: "";
     height: 6px;
-    left: 7px;
+    left: 3px;
     opacity: 0;
     position: absolute;
-    top: 8px;
+    top: 5px;
     transform: rotate(-45deg);
-    width: 12px;
+    width: 14px;
 }
 
 .checkbox_holder input[type="checkbox"] {

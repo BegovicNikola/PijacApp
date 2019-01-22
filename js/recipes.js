@@ -21,7 +21,7 @@ $(document).ready(() => {
                             </div>
                             <div class="card-body text-justified">
                                 <h5 class="card-title">${recipe.title}</h5>
-                                <span class="recipes_item w-100 btn btn-primary" data-product="${recipe.id}">Vise o ovome...</span>
+                                <span class="recipes_item w-100 btn btn-primary" data-product="${recipe.id}">Više o ovome...</span>
                             </div>
                         </div>
                     </div>`;

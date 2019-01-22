@@ -1,44 +1,219 @@
 [
     {
         "id": 1,
-        "type": "meso",
-        "name": "paradajz",
-        "img": "paradajz.jpg",
-        "price": "330 din/kg"
+        "type": "a_proizvodi",
+        "name": "krompir",
+        "img": "krompir.png",
+        "price": "200 din/kg"
     },
     {
         "id": 2,
+        "type": "a_proizvodi",
+        "name": "lisičarka",
+        "img": "pblisicarka.png",
+        "price": "500 din/kg"
+    },
+    {
+        "id": 14,
         "type": "voce",
-        "name": "krompir",
-        "img": "paradajz.jpg",
-        "price": "330 din/kg"
+        "name": "jabukadivlja",
+        "img": "jabukadivlja.png",
+        "price": "80 din/kg"
     },
     {
         "id": 3,
-        "type": "povrce",
-        "name": "kupus",
-        "img": "paradajz.jpg",
-        "price": "330 din/kg"
+        "type": "a_proizvodi",
+        "name": "vrganj",
+        "img": "vrganj.png",
+        "price": "300 din/kg"
     },
     {
         "id": 4,
-        "type": "povrce",
-        "name": "sargarepa",
-        "img": "paradajz.jpg",
-        "price": "330 din/kg"
+        "type": "a_proizvodi",
+        "name": "koprenjak",
+        "img": "koprenjak.png",
+        "price": "130 din/veza"
     },
     {
         "id": 5,
-        "type": "voce",
-        "name": "luk",
-        "img": "paradajz.jpg",
-        "price": "330 din/kg"
+        "type": "a_proizvodi",
+        "name": "matičnjak",
+        "img": "maticnjak.png",
+        "price": "350 din/50g"
     },
     {
         "id": 6,
+        "type": "a_proizvodi",
+        "name": "zdravac",
+        "img": "zdravac.png",
+        "price": "250 din/100g"
+    },
+    {
+        "id": 7,
         "type": "voce",
-        "name": "tikvice",
-        "img": "paradajz.jpg",
-        "price": "330 din/kg"
+        "name": "kruska",
+        "img": "kruska.jpg",
+        "price": "130 din/kg"
+    },
+    {
+        "id": 8,
+        "type": "voce",
+        "name": "belogrožđe",
+        "img": "belogr.png",
+        "price": "170 din/kg"
+    },
+    {
+        "id": 9,
+        "type": "voce",
+        "name": "crnogrožđe",
+        "img": "crnogr.jpg",
+        "price": "170 din/kg"
+    },
+    {
+        "id": 10,
+        "type": "voce",
+        "name": "jabuka",
+        "img": "jabuke.png",
+        "price": "50 din/kg"
+    },
+    {
+        "id": 11,
+        "type": "voce",
+        "name": "mušmula",
+        "img": "musmula.png",
+        "price": "110 din/kg"
+    },
+    {
+        "id": 12,
+        "type": "voce",
+        "name": "šipurak",
+        "img": "sipurak.jpg",
+        "price": "120 din/kg"
+    },
+    {
+        "id": 13,
+        "type": "a_proizvod",
+        "name": "oskoruša",
+        "img": "oskorusa.png",
+        "price": "180 din/kg"
+    },
+    {
+        "id": 14,
+        "type": "a_proizvodi",
+        "name": "divljajabuka",
+        "img": "jabukadivlja.png",
+        "price": "80 din/kg"
+    },
+    {
+        "id": 15,
+        "type": "povrce",
+        "name": "blitva",
+        "img": "blitva.png",
+        "price": "45 din/veza"
+    },
+    {
+        "id": 16,
+        "type": "povrce",
+        "name": "brokoli",
+        "img": "brokoli.jpg",
+        "price": "220 din/kg"
+    },
+    {
+        "id": 17,
+        "type": "povrce",
+        "name": "celer",
+        "img": "celer.png",
+        "price": "220 din/kg"
+    },
+    {
+        "id": 18,
+        "type": "povrce",
+        "name": "crniluk",
+        "img": "crniluk.png",
+        "price": "60 din/kg"
+    },
+    {
+        "id": 19,
+        "type": "povrce",
+        "name": "cvekla",
+        "img": "cvekla.jpg",
+        "price": "180 din/kg"
+    },
+    {
+        "id": 20,
+        "type": "povrce",
+        "name": "karfiol",
+        "img": "karfiol.jpg",
+        "price": "130 din/kg"
+    },
+    {
+        "id": 21,
+        "type": "povrce",
+        "name": "kupus",
+        "img": "kupus.png",
+        "price": "90 din/kg"
+    },
+    {
+        "id": 22,
+        "type": "povrce",
+        "name": "crveniluk",
+        "img": "lukcrveni.png",
+        "price": "80 din/kg"
+    },
+    {
+        "id": 23,
+        "type": "povrce",
+        "name": "pasulj",
+        "img": "pasulj.png",
+        "price": "320 din/kg"
+    },
+    {
+        "id": 24,
+        "type": "povrce",
+        "name": "mladiluk",
+        "img": "mladiluk.png",
+        "price": "50 din/veza"
+    },
+    {
+        "id": 25,
+        "type": "povrce",
+        "name": "paprika",
+        "img": "paprika.png",
+        "price": "210 din/kg"
+    },
+    {
+        "id": 26,
+        "type": "povrce",
+        "name": "sargarepa",
+        "img": "sargarepa.png",
+        "price": "150 din/kg"
+    },
+    {
+        "id": 27,
+        "type": "povrce",
+        "name": "praziluk",
+        "img": "praziluk.png",
+        "price": "140 din/kg"
+    },
+    {
+        "id": 28,
+        "type": "povrce",
+        "name": "tikva",
+        "img": "tikva.png",
+        "price": "90 din/kg"
+    },
+    {
+        "id": 29,
+        "type": "povrce",
+        "name": "tikvica",
+        "img": "tikvica.png",
+        "price": "110 din/kg"
+    },
+    {
+        "id": 1,
+        "type": "povrce",
+        "name": "krompir",
+        "img": "krompir.png",
+        "price": "200 din/kg"
     }
 ]

@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- Banner -->
-    <div class="container-fluid bg-light d-flex justify-content-center">
+    <div class="container-fluid d-flex justify-content-center">
         <a href="index.html"><img style="width: 400px;" src="assets/img/logo.png" alt=""></a>
     </div>
     <!-- Navigation -->
@@ -38,7 +38,7 @@
                     <li class="nav-item">
                         <a class="nav-link text-uppercase  d-flex flex-column align-items-center p-0 text-dark" href="suppliers.html">
                             <img style="width: 120px;" src="assets/img/proizvodjaci.png" alt="">
-                            Proizvodjaci
+                            Proizvođači
                         </a>
                     </li>
                     <li class="nav-item">
@@ -69,22 +69,57 @@
                 <input id="search" type="text" class="form-control" placeholder="Naziv proizvoda..."/>
             </div>
             <div id="filter" class="col-md-3 border rounded bg-white">
-                <h5 class="px-3 mb-4 mt-3">Kategorija</h4>
+                <h5 class="px-3 mb-4 mt-3">Kategorija</h5>
                 <ul class="w-100 px-3 d-flex flex-column justify-content-between">
                     <li class="position-relative checkbox_holder">
+                        <input type="checkbox" id="a_proizvodi" value="a_proizvodi" class="checkbox_type">
+                        <label for="a_proizvodi"></label>
+                        <span class="ml-3">autohtoni proizvodi</span>
+                    </li>
+                    <li class="position-relative checkbox_holder">
                         <input type="checkbox" id="voce" value="voce" class="checkbox_type">
-                        <label class="mb-0" for="voce"></label>
-                        <span class="ml-3 text-uppercase">Voce</span>
+                        <label for="voce"></label>
+                        <span class="ml-3">voće</span>
                     </li>
                     <li class="position-relative checkbox_holder">
                         <input type="checkbox" id="povrce" value="povrce" class="checkbox_type">
                         <label for="povrce"></label>
-                        <span class="ml-3 text-uppercase">Povrce</span>
+                        <span class="ml-3">povrće</span>
+                    </li>
+                    <li class="position-relative checkbox_holder">
+                        <input type="checkbox" id="mleko" value="mleko" class="checkbox_type">
+                        <label for="mleko"></label>
+                        <span class="ml-3">mlečni proizvodi</span>
                     </li>
                     <li class="position-relative checkbox_holder">
                         <input type="checkbox" id="meso" value="meso" class="checkbox_type">
                         <label for="meso"></label>
-                        <span class="ml-3 text-uppercase">Meso</span>
+                        <span class="ml-3">meso</span>
+                    </li>
+                    <li class="position-relative checkbox_holder">
+                        <input type="checkbox" id="gljive" value="gljive" class="checkbox_type">
+                        <label for="gljive"></label>
+                        <span class="ml-3">gljive</span>
+                    </li>
+                    <li class="position-relative checkbox_holder">
+                        <input type="checkbox" id="zimnica" value="zimnica" class="checkbox_type">
+                        <label for="zimnica"></label>
+                        <span class="ml-3">zimnica</span>
+                    </li>
+                    <li class="position-relative checkbox_holder">
+                        <input type="checkbox" id="z_bilje" value="z_bilje" class="checkbox_type">
+                        <label for="z_bilje"></label>
+                        <span class="ml-3">začinsko bilje</span>
+                    </li>
+                    <li class="position-relative checkbox_holder">
+                        <input type="checkbox" id="sokovi" value="sokovi" class="checkbox_type">
+                        <label for="sokovi"></label>
+                        <span class="ml-3">sokovi</span>
+                    </li>
+                    <li class="position-relative checkbox_holder">
+                        <input type="checkbox" id="pir" value="pir" class="checkbox_type">
+                        <label for="pir"></label>
+                        <span class="ml-3">pivo i rakija</span>
                     </li>
                 </ul>
             </div>
@@ -92,7 +127,7 @@
                 <div id="products" class="row">
                     <!-- Multiple Products Rendered Here -->
                 </div>
-                <div id="product" class="row bg-white">
+                <div id="product" class="row">
                     <!-- Single Product Rendered Here -->
                 </div>
             </div>
