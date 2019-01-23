@@ -31,6 +31,10 @@ ul{
     color: #667395;
 }
 
+.primary_background{
+    background-color: #990000;
+}
+
 /* Checkbox Styling -> Start */
 .checkbox_holder {
     height: 50px;

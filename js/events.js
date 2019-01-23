@@ -20,9 +20,9 @@ $(document).ready(() => {
                             <div class="rounded-top">
                                 <img style="height: 250px;" class="card-img-top" src="${event.banner}" alt="${event.title}">
                             </div>
-                            <div class="card-body text-justified">
+                            <div class="card-body px-0 text-justified">
                                 <h5 class="card-title">${event.title}</h5>
-                                <span class="events_item w-100 btn btn-primary" data-product="${event.id}">Više o ovome...</span>
+                                <span class="events_item w-100 btn primary_background text-white" data-product="${event.id}">Više o ovome...</span>
                             </div>
                         </div>
                     </div>`;
@@ -60,26 +60,34 @@ $(document).ready(() => {
                                     <div class="card p-3 border-0">
                                         <img src="${result[0].banner}" alt="" class="w-100 border card-image-top"/>
                                         <div class="card-body px-0">
-                                            <p class="card-text">Posetioci će moći da degustiraju sve vrste staroplaninskih jela,kao i sve darove prirode-krompir, pasulj, sir, borovnice, maline, kupine, lekovito bilje i sokove.
-                                            Takođe,u okviru manifestaciji biće  i nadmetanje u starim sportskim disciplinama,ocenjivanje najlepše uređenog štanda, najboljeg jela, banice, najvećeg krompira i najboljih sportista.
-                                            </p>
+                                            <p class="card-text">${result[0].description[0]}</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-6 px-0 bg-white">
                                     <div class="card border-0">
-                                        <div class="card-body">
-                                            <p class="card-text">Ponekad reči nisu dovoljne da bi se opisalo sve čime sela Stare planine raspolažu, zato je najbolje “doći, videti i doživeti”. Od same manifestacije do gotovo netaknute prirode tik iza poslednje krivine na izlazu iz sela, posetiocima je omogućena degustacija jela spramena na tradicionalni način, prema prema brižljivo čuvanim receptima domaćica. Banice, jela od krompira, peglane kobasice, pirotski kačkavalj, kao i voće i povrće uzgajano u Dojkincima, samo su neki od proizvoda koji se mogu naci na ovom sajmu.</p>
+                                        <div class="card-body d-flex justify-content-center flex-column">
+                                            <p class="card-text primary_color">${result[0].description[1]}</p>
+                                            <img class="mb-3 mt-4 mx-auto" style="width: 80px;" src="assets/img/sat.png" alt=""/>
+                                            <p class="text-center primary_color">Datum održavanja:<br/>${result[0].date}</p>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-6 bg-white">
                                     <img style="height: 250px;" class="w-100 mb-4" src="${result[0].gallery[0]}" alt=""/>
                                     <img style="height: 250px;" class="w-100" src="${result[0].gallery[1]}" alt=""/>
+                                    <p class="text-left">
+                                        <span class="text-uppercase">Organizatori manifestacije</span><br/>
+                                        ${result[0].organizers}
+                                    </p>
                                 </div>
                                 <div class="col-6 bg-white">
                                     <img style="height: 250px;" class="w-100 mb-4" src="${result[0].gallery[2]}" alt=""/>
                                     <img style="height: 250px;" class="w-100" src="${result[0].gallery[3]}" alt=""/>
+                                    <p class="text-right">
+                                        <span class="text-uppercase">Kontakt</span><br/>
+                                        ${result[0].contact}
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -88,14 +96,6 @@ $(document).ready(() => {
                 events_container.innerHTML = '';
                 event_container.innerHTML = html;
                 events_header.style.display = 'none';
-                // Rendering Gallery
-                function event_gallery(gallery_array){
-                    let html = '';
-                    gallery_array.forEach(image => {
-                        html += `<img class="border" style="width: 25%;" src="${image}" alt="image" /><img class="border" style="width: 25%;" src="${image}" alt="image" />`;
-                    });
-                    return html;
-                }
             }
         });
     }

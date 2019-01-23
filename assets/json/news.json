@@ -1,37 +1,37 @@
 [
     {
         "id": 1,
-        "title": "Naslov broj jedan",
-        "subtitle": "Podnaslov broj jedan",
+        "title": "USKORO I APLIKACIJA!",
+        "subtitle": "VAŠA KORPA U PAMETNOM TELEFONU",
         "date": "2019:01:01",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis."
+        "description": "Dragi naši potrošači, raduje nas što možemo da vas obavestimo da ćemo uskoro imati i aplikaciju! Ovim korakom činimo poručivanje još lakšim i efikasnijim."
     },
     {
         "id": 2,
-        "title": "Naslov broj jedan",
-        "subtitle": "Podnaslov broj jedan",
+        "title": "NOVI ČLAN NAŠEG TIMA",
+        "subtitle": "I STARO I MLADO",
         "date": "2019:01:01",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.."
+        "description": "Dragi naši potrošači, velika nam je čast da vam predstavimo novog proizvođača, i to najmlađeg u našem društvu! Mali Jovan ima 16 godina."
     },
     {
         "id": 3,
-        "title": "Naslov broj jedan",
-        "subtitle": "Podnaslov broj jedan",
+        "title": "SAJAM PEGLANE KOBASICE U PIROTU",
+        "subtitle": "26. - 27. JANUAR 2019",
         "date": "2019:01:01",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis."
+        "description": "Dragi naši potrošači, po prvi put od nastanka društva imamo priliku da učestvujemo na tradicionalnom Sajmu peglane kobasice u Pirotu!"
     },
     {
         "id": 4,
-        "title": "Naslov broj jedan",
-        "subtitle": "Podnaslov broj jedan",
+        "title": "PUT DO PONORA UZ RUČAK U KAFANI",
+        "subtitle": "PUT POD NOGE, IVICU ZA RUKU!",
         "date": "2019:01:01",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis."
+        "description": "Dragi naši potrošači, organizujemo put do Ponora koji će predvoditi Ivica, meštanin sela Dojkinci. Doživljaj ćemo upotpuniti našim specijalitetima."
     },
     {
         "id": 5,
-        "title": "Naslov broj jedan",
-        "subtitle": "Podnaslov broj jedan",
+        "title": "NOVI PROIZVOD: ČAJ OD MILODUHA",
+        "subtitle": "BAKA ANKA TRAVARKA",
         "date": "2019:01:01",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis."
+        "description": "Dragi naši potrošači, stiže zima, a sa njom i prehlade. Baka Anka je u inat gripu spremila poseban čaj od miloduha, koji se pokazao kao odličan lek za  pluća."
     }
 ]

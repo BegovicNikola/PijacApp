@@ -4,8 +4,8 @@
         "name": "krompir",
         "img": "krompir.png",
         "price": "200 din/kg",
-        "mark": ["Beli", "Crni", "Crveni"],
-        "produced_by": ["Porodica Markovic", "Baka Kata", "Jure"],
+        "mark": ["Beli", "Crveni"],
+        "produced_by": ["Ljuba i Ivica Stanojević", "Sava Dragin", "Porodica Živkov", "Dana Rakić i Anka Jovanović"],
         "description": "Direktno iz Dojkinaca može se naručiti prepoznatljivi beli krompir. Njive na Staroj planini, naročito na višim delovima planine, poznate su i kao \"devičanske njive\", jer se ovde krompir  ne tretira nikakvim hemikalijama, već isključivo stajskim đubrivom. Tajna izuzetno kvalitetnog krompira leži u činjenici da u ovom podneblju praktično nema štetočina, poput    zlatica, tako da nema potrebe za tretmanom zemljišta hemikalijama. Interesantno je da se sa  10a pod krompirom može izvaditi i više od 500 kg prvoklasnog krompira."
     },
     {   "id": 2,

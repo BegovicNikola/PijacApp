@@ -15,13 +15,13 @@ $(document).ready(() => {
                 data.forEach(recipe => {
                     html += `
                     <div class="col-6 mt-4">
-                        <div class="card p-5">
+                        <div class="card px-3 pt-3">
                             <div class="rounded-top">
                                 <img class="card-img-top" src="${recipe.banner}" alt="${recipe.title}">
                             </div>
-                            <div class="card-body text-justified">
+                            <div class="card-body px-0 text-justified">
                                 <h5 class="card-title">${recipe.title}</h5>
-                                <span class="recipes_item w-100 btn btn-primary" data-product="${recipe.id}">Više o ovome...</span>
+                                <span class="recipes_item w-100 btn primary_background text-white" data-product="${recipe.id}">Više o ovome...</span>
                             </div>
                         </div>
                     </div>`;

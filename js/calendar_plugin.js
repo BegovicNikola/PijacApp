@@ -207,8 +207,10 @@
     $('#calendar').eCalendar({url: 'loadCalendar'});
     $('#calendar').eCalendar({
         events: [
-            {title: 'Event Title 1', description: 'Description 1', datetime: new Date(2019, 0, 12)},
-            {title: 'Event Title 2', description: 'Description 2', datetime: new Date(2019, 0, 23)}
+            {title: 'Sajam', description: 'Peglane Kobasice Pirot 1.dan', datetime: new Date(2019, 0, 26, 9)},
+            {title: 'Sajam', description: 'Peglane Kobasice Pirot 2.dan', datetime: new Date(2019, 0, 27, 9)},
+            {title: 'Building 7', description: 'Bush did it!', datetime: new Date(2019, 8, 11)},
+            {title: 'Manifestacija', description: 'Darovi Netaknute Prirode Dojkinci', datetime: new Date(2019, 8, 15, 10)}
         ]
     });
     // My Coded Dates -> End
