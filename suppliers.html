@@ -145,9 +145,11 @@
     <script type="text/javascript">
         // Scroll Reveal Effects for Featured Items
         ScrollReveal().clean('#logo');
-        ScrollReveal().reveal('#logo', { delay: 800, duration: 700, origin: 'top', distance: '300px' });
+        ScrollReveal().reveal('#logo', { delay: 600, duration: 700, origin: 'top', distance: '300px' });
         ScrollReveal().clean('.nav-item');
-        ScrollReveal().reveal('.nav-item', { interval:200, delay: 1200, duration: 1200, origin: 'top', distance: '200px' });
+        ScrollReveal().reveal('.nav-item', { interval:200, delay: 1000, duration: 1000, origin: 'top', distance: '200px' });
+        ScrollReveal().clean('.card');
+        ScrollReveal().reveal('.card', { interval: 600, delay: 1800, duration: 1200, origin: 'top', distance: '300px' });
 
         $('#cart').click(() => {
             $.MessageBox(`
