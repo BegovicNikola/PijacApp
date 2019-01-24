@@ -101,6 +101,12 @@ $(document).ready(() => {
         });
     }
 
+    // Scroll Reveal Effects for Featured Items
+    ScrollReveal().clean('#logo');
+    ScrollReveal().reveal('#logo', { delay: 800, duration: 700, origin: 'top', distance: '300px' });
+    ScrollReveal().clean('.nav-item');
+    ScrollReveal().reveal('.nav-item', { interval:200, delay: 1200, duration: 1200, origin: 'top', distance: '200px' });
+
     $('#cart').click(() => {
         $.MessageBox(`
             <div class="d-flex flex-column justify-content-center text-center">
