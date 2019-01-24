@@ -9,7 +9,7 @@ $(document).ready(() => {
     render_events();
     function render_events(){
         $.ajax({
-            url: `https://begovicnikola.github.io/PijacaApp/assets/json/events.json`,
+            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/events.json`,
             dataType: 'json',
             success: (data) => {
                 let html = ``;
@@ -45,7 +45,7 @@ $(document).ready(() => {
     // Render Single Product
     function render_event(event_id){
         $.ajax({
-            url: `https://begovicnikola.github.io/PijacaApp/assets/json/events.json`,
+            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/events.json`,
             dataType: 'json',
             success: (data) => {
                 let result = data.filter(e => e.id == event_id);
@@ -99,5 +99,18 @@ $(document).ready(() => {
             }
         });
     }
+
+    $('#cart').click(() => {
+        $.MessageBox(`
+            <div class="d-flex flex-column justify-content-center text-center">
+                <div class="d-flex justify-content-center">
+                    <img style="width: 200px; height: 117px;" src="assets/img/logo.png" alt=""/>
+                </div>
+                <input class="form-control" type="text" placeholder="Korisničko ime..."/>
+                <input class="form-control" type="password" placeholder="Lozinka..."/>
+                <span style="background-color: #61708F;" class="border-0 btn btn-success">Nastavi</span>
+            </div>
+        `);
+    });
 
 });

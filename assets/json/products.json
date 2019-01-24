@@ -52,7 +52,7 @@
         "id": 7,
         "type": "voce",
         "name": "kruska",
-        "img": "kruska.jpg",
+        "img": "kruska.png",
         "price": "130 din/kg"
     },
     {
@@ -66,7 +66,7 @@
         "id": 9,
         "type": "voce",
         "name": "crnogrožđe",
-        "img": "crnogr.jpg",
+        "img": "crnogr.png",
         "price": "170 din/kg"
     },
     {
@@ -87,7 +87,7 @@
         "id": 12,
         "type": "voce",
         "name": "šipurak",
-        "img": "sipurak.jpg",
+        "img": "sipurak.png",
         "price": "120 din/kg"
     },
     {
@@ -115,7 +115,7 @@
         "id": 16,
         "type": "povrce",
         "name": "brokoli",
-        "img": "brokoli.jpg",
+        "img": "brokoli.png",
         "price": "220 din/kg"
     },
     {
@@ -136,14 +136,14 @@
         "id": 19,
         "type": "povrce",
         "name": "cvekla",
-        "img": "cvekla.jpg",
+        "img": "cvekla.png",
         "price": "180 din/kg"
     },
     {
         "id": 20,
         "type": "povrce",
         "name": "karfiol",
-        "img": "karfiol.jpg",
+        "img": "karfiol.png",
         "price": "130 din/kg"
     },
     {

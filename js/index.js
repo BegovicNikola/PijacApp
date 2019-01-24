@@ -7,7 +7,7 @@ $(document).ready(() => {
     render_news();
     function render_news(){
         $.ajax({
-            url: `https://begovicnikola.github.io/PijacaApp/assets/json/news.json`,
+            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/news.json`,
             dataType: 'json',
             success: (data) => {
                 let html = ``;
@@ -33,8 +33,12 @@ $(document).ready(() => {
     $('#cart').click(() => {
         $.MessageBox(`
             <div class="d-flex flex-column justify-content-center text-center">
-                <p>Korpa</p>
-                <span class="btn btn-success" href="files/docs.pdf" download>Kupi</span>
+                <div class="d-flex justify-content-center">
+                    <img style="width: 200px; height: 117px;" src="assets/img/logo.png" alt=""/>
+                </div>
+                <input class="form-control" type="text" placeholder="Korisničko ime..."/>
+                <input class="form-control" type="password" placeholder="Lozinka..."/>
+                <span style="background-color: #61708F;" class="border-0 btn btn-success">Nastavi</span>
             </div>
         `);
     });

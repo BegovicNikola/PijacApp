@@ -1,68 +1,64 @@
 [
     {
         "id": 1,
-        "title": "darovi netaknute prirode",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
-        ]
+        "title": "Pirotska Kisela Banica",
+        "banner": "assets/img/recept1.png",
+        "description": [
+            "Banica je sukana pita sa juga Srbije. Tradicionalno jelo belopalanačkog, pirotskog i staroplaninskog kraja. Tajna ove pite je kvalitetno brašno i umeće razvijanja kora. Ovaj specijalitet ima i svoj festival u Beloj Palanci, koji okuplja veliki broj turista iz zemlje i inostranstva.",
+            "Zamesiti testo od brašna, kvasca i mlake vode tako da se odvaja od zidova posude. Ostaviti ga na toplom mestu i čekati da naraste (oko 30-35 minuta). Pažljivo izručiti testo na brašnom posutu površinu, razmesiti i podelitina 6-7 jufki. Svaku jufkicu razvući oklagijom na veličnu tepsije u kojoj će se peći, staviti u tepsiju, premazati istopljenom mašću ili uljem i mrvljenim sirom. Na zadnju jufku se ne stavlja ništa, a testo se nožem iseče na veće kocke i ostavi da još malo naraste. Peći u zagrejanoj rerni 40 minuta."
+        ],
+        "steps": [
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        ],
+        "ingredients": "700-800gr brašna<br/>1 kocka svežeg kvasca<br/>1 supena kašika masti<br/>200gr kravljeg sira"
     },
     {
         "id": 2,
-        "title": "sajam pirotske peglane kobasice",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
+        "title": "Proja sa čvarcima",
+        "banner": "assets/img/recept2.png",
+        "description": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ],
+        "steps": [
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         ]
     },
     {
         "id": 3,
-        "title": "sajam staroplaninskih jela",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
+        "title": "Tatlije",
+        "banner": "assets/img/recept3.png",
+        "description": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ],
+        "steps": [
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         ]
     },
     {
         "id": 4,
-        "title": "sajam staroplaninskih jela",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
-        ]
-    },
-    {
-        "id": 5,
-        "title": "sajam pirotske peglane kobasice",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
-        ]
-    },
-    {
-        "id": 6,
-        "title": "izlozba rakije, tradicionalnih",
-        "banner": "assets/img/kupus.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "gallery": [
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg", 
-            "assets/img/paradajz.jpg"
+        "title": "Pita od spanaća",
+        "banner": "assets/img/recept4.png",
+        "description": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        ],
+        "steps": [
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit"
         ]
     }
 ]

@@ -8,7 +8,7 @@ $(document).ready(() => {
     render_products();
     function render_products(){
         $.ajax({
-            url: `https://begovicnikola.github.io/PijacaApp/assets/json/products.json`,
+            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/products.json`,
             dataType: 'json',
             success: (data) => {
                 let html = ``;
@@ -43,7 +43,7 @@ $(document).ready(() => {
     // Render Single Product
     function render_product(product_name){
         $.ajax({
-            url: `https://begovicnikola.github.io/PijacaApp/assets/json/product.json`,
+            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/product.json`,
             dataType: 'json',
             success: (data) => {
                 let result = data.filter(e => e.name == product_name);
@@ -140,7 +140,7 @@ $(document).ready(() => {
             filter.checked = !filter.checked;
       
             $.ajax({
-                url: `https://begovicnikola.github.io/PijacaApp/assets/json/products.json`,
+                url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/products.json`,
                 dataType: 'json',
                 success: (data) => {
 
@@ -217,7 +217,7 @@ $(document).ready(() => {
         let html = ``;
         if (search_input.toLowerCase()) {
             $.ajax({
-                url: `https://begovicnikola.github.io/PijacaApp/assets/json/products.json`,
+                url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/products.json`,
                 dataType: 'json',
                 success: (data) => {
                     let result = data.filter(product => product.name.startsWith(search_input.toLowerCase()));
@@ -253,5 +253,18 @@ $(document).ready(() => {
             render_products();
         }   
     }
+
+    $('#cart').click(() => {
+        $.MessageBox(`
+            <div class="d-flex flex-column justify-content-center text-center">
+                <div class="d-flex justify-content-center">
+                    <img style="width: 200px; height: 117px;" src="assets/img/logo.png" alt=""/>
+                </div>
+                <input class="form-control" type="text" placeholder="Korisničko ime..."/>
+                <input class="form-control" type="password" placeholder="Lozinka..."/>
+                <span style="background-color: #61708F;" class="border-0 btn btn-success">Nastavi</span>
+            </div>
+        `);
+    });
 
 });
