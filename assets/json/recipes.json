@@ -8,27 +8,44 @@
             "Zamesiti testo od brašna, kvasca i mlake vode tako da se odvaja od zidova posude. Ostaviti ga na toplom mestu i čekati da naraste (oko 30-35 minuta). Pažljivo izručiti testo na brašnom posutu površinu, razmesiti i podelitina 6-7 jufki. Svaku jufkicu razvući oklagijom na veličnu tepsije u kojoj će se peći, staviti u tepsiju, premazati istopljenom mašću ili uljem i mrvljenim sirom. Na zadnju jufku se ne stavlja ništa, a testo se nožem iseče na veće kocke i ostavi da još malo naraste. Peći u zagrejanoj rerni 40 minuta."
         ],
         "steps": [
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "1. U prosejanobrašnododati so, kvasacrazmućen u vodi, zamesitiglatkotesto i podelitiganajufkice;",
+            "2. Svakoparčepremesiti i razviti koru veličinetepsije;",
+            "3. Na svaku koru posipatimaloulja i nanetitj. posipatiizdrobljen sir;",
+            "4. Koru skupiti (kaofalte), prvusavitikaospiralu i postaviti u sredinipodmazanetepsije. Okonje, sve do zadnjegredatj. zidovatepsije, ređatiostalekorepripremljenenaistinačin;",
+            "5. Poprskatipovršinuuljem i nasobnojtemperaturiostaviti 10-15 min da odstoji;",
+            "6. Pećina 250°C oko 40 min;"
         ],
-        "ingredients": "700-800gr brašna<br/>1 kocka svežeg kvasca<br/>1 supena kašika masti<br/>200gr kravljeg sira"
+        "ingredients": [
+            "700-800gr brašna",
+            "1 kocka svežeg kvasca",
+            "1 supena kašika masti",
+            "200gr kravljeg sira"
+        ]
     },
     {
         "id": 2,
         "title": "Proja sa čvarcima",
         "banner": "assets/img/recept2.png",
         "description": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "Proja je u Srbiji specijalitet koji često možete videti na trpezi, a može zameniti bilo koji obrok u toku dana. Neki je prave sa sirom, neki sa blitvom ili ajvarom. Međutim ako pitate Piroćance najbolja je sa čvarcima, još ako ide uz sir i šolju kiselog mleka.",
+            "Zamesiti mekše testo od šolje mleka, jaja, mlevenih čvaraka, masti, malo soli, praška za pecivo i belog kukuruznog brašna. Testo, koje ne sme da bude gusto sipati u nauljenu tepsiju ili pleh. Ispeći u jače zagrejanoj pećnici na oko 250C. Služiti odmah sa sirom."
         ],
         "steps": [
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "1. U jednu posudu sipati sve sastojke;",
+            "2. Dobro ih zamešati, testo ne sme biti previše gusto;",
+            "3. Dobijenu smesu sipati u nauljenu tepsiju ili pleh;",
+            "4. Peći u pećnici na 250C;",
+            "5. Poslužiti dok je toplo uz sir;"
+        ],
+        "ingredients": [
+            "300gr belog kukuruznog brašna",
+            "200ml mleka",
+            "2 jajeta",
+            "300gr mlevenih čvaraka",
+            "2 kašike masti",
+            "7 belanaca",
+            "prašak za pecivo",
+            "so"
         ]
     },
     {
@@ -36,14 +53,29 @@
         "title": "Tatlije",
         "banner": "assets/img/recept3.png",
         "description": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "U starimknjigamarecepatapirotskebrdaricejošsupoznate i kao “tatlije”.U našekrajevedonelisuihturskiosvajači (reč “tati” naarapskomznači “slatko, ukusno”).Naše bake sačuvalesuovajstarinskirecept, a mi vamgaprenosimokakobismoovajpirotskispecijalitetsačuvaliodzaborava.",
+            "U sud sipati vodu i mleko. Prokuvati, pa polako sipati brašno. Skloniti, dobro izmešati i dodati limunovu koru. Kada se masa prohladi u nju umešati 7 žumanaca, jedno po jedno, mutiti, pa u to pažljivo umešati sneg od 7 belanaca i dalje mešati da se izjednači. Tatlije istiskivati u vrelo ulje pomoću šprica i ispržiti ih da budu rumene. Posle toga svaku tatliju zamočiti u vreli šerbet i poređati jednu uz drugu u tepsiju. Šerbet se pravi tako što se 750gr šećera i 500ml vode stave da se kuvaju 10 minuta"
         ],
         "steps": [
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "1. U šerpu sipati vodu i mleko i prokuvati;",
+            "2. U smjesu polako sipati brašno, a zatim skloniti sa vatre, dobro promiješati, dodati limunovu koru i ostaviti da se prohladi;",
+            "3. Kada se masa prohladi u nju umešati 7 žumanaca, i sneg od 7 belanaca i mešati do se masa ne ujednači;",
+            "4. Na vatri zagrejati ulje, i zatim istiskivati tatlije pomoću šprica;",
+            "5. Pržiti ih u ulju dok ne postanu rumene;",
+            "6. Kada budu gotove sve tatlije poređati ih u pleh jednu pored druge;",
+            "7. Zatim u šerpu sipati 500ml hladne vode i 750gr šečera i ostavati da se kuva 10ak minuta;",
+            "8. Kada je šerbet gotov, preliti tatalije u plehu dok ne budu natopljene;"
+        ],
+        "ingredients": [
+            "250ml vode   ",
+            "250ml mleka ",
+            "300gr oštrog brašna ",
+            "1 limun",
+            "7 žumanaca",
+            "7 belanaca",
+            "ulje",
+            "750gr šećera ",
+            "500ml vode"
         ]
     },
     {
@@ -51,14 +83,24 @@
         "title": "Pita od spanaća",
         "banner": "assets/img/recept4.png",
         "description": [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            "Pravo umeće domaćica Stare planine jeste razvijanje domaćih kora. Upravo to je razlog zašto je ovo područje tako poznato po različitim vrstama pita vrhunskog kvaliteta. Jedna od najčeše pravljenih pored naravno autentične i nadaleko poznate banice jeste i pita od spanaća.",
+            "Sitno iseći opran  i oceđen spanać,posoliti iga i dobro izgnječiti. Dodati mu viljuškom izmrvljeni sir i dobro umućena jaja.Kore raspodeliti i filovati mešavinom sira i spanaća, a zatim ih ređati u četvrtasti pleh.Svaku koru pre filovanja poprskati uljem. Peći na umerenoj vatri."
         ],
         "steps": [
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            "1. Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+            "1. Oprati i ocediti spanać, a zatim ga sitno iseći, posoliti i izgnječiti;",
+            "2. Dodati izmrvljen sir i dobro umućena jaja;",
+            "3. Koru poprskati uljem a zatim filovati doijenom smesom;",
+            "4. Ponoviti postupak dok se ne utroši čitava smesa;",
+            "5. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "6. Filovane kore poređati u nauljen pleh;",
+            "7. Peći na umerenoj vatri;"
+        ],
+        "ingredients": [
+            "500gr spanaća",
+            "500gr kravljeg sira",
+            "3 jajeta",
+            "600gr debljih kora za pitu",
+            "100ml ulja"
         ]
     }
 ]

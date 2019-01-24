@@ -9,7 +9,7 @@ $(document).ready(() => {
     render_events();
     function render_events(){
         $.ajax({
-            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/events.json`,
+            url: `https://begovicnikola.github.io/PijacaApp/assets/json/events.json`,
             dataType: 'json',
             success: (data) => {
                 let html = ``;
@@ -45,7 +45,7 @@ $(document).ready(() => {
     // Render Single Product
     function render_event(event_id){
         $.ajax({
-            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/events.json`,
+            url: `https://begovicnikola.github.io/PijacaApp/assets/json/events.json`,
             dataType: 'json',
             success: (data) => {
                 let result = data.filter(e => e.id == event_id);
@@ -53,45 +53,46 @@ $(document).ready(() => {
                 let html = ``;
                 // result[0].title
                 html += `
-                    <div class="col-12">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-6 px-0 bg-white">
-                                    <div class="card p-3 border-0">
-                                        <img src="${result[0].banner}" alt="" class="w-100 border card-image-top"/>
-                                        <div class="card-body px-0">
-                                            <p class="card-text">${result[0].description[0]}</p>
-                                        </div>
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 px-0 bg-white">
+                                <div class="card p-3 border-0">
+                                    <img src="${result[0].banner}" alt="" class="w-100 border card-image-top"/>
+                                    <div class="card-body px-0">
+                                        <p class="card-text">${result[0].description[0]}</p>
                                     </div>
-                                </div>
-                                <div class="col-6 px-0 bg-white">
-                                    <div class="card border-0">
-                                        <div class="card-body d-flex justify-content-center flex-column">
-                                            <p class="card-text primary_color">${result[0].description[1]}</p>
-                                            <img class="mb-3 mt-4 mx-auto" style="width: 80px;" src="assets/img/sat.png" alt=""/>
-                                            <p class="text-center primary_color">Datum održavanja:<br/>${result[0].date}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-6 bg-white">
-                                    <img style="height: 250px;" class="w-100 mb-4" src="${result[0].gallery[0]}" alt=""/>
-                                    <img style="height: 250px;" class="w-100" src="${result[0].gallery[1]}" alt=""/>
-                                    <p class="text-left">
-                                        <span class="text-uppercase">Organizatori manifestacije</span><br/>
-                                        ${result[0].organizers}
-                                    </p>
-                                </div>
-                                <div class="col-6 bg-white">
-                                    <img style="height: 250px;" class="w-100 mb-4" src="${result[0].gallery[2]}" alt=""/>
-                                    <img style="height: 250px;" class="w-100" src="${result[0].gallery[3]}" alt=""/>
-                                    <p class="text-right">
-                                        <span class="text-uppercase">Kontakt</span><br/>
-                                        ${result[0].contact}
-                                    </p>
                                 </div>
                             </div>
+                            <div class="col-6 px-0 bg-white">
+                                <div class="card border-0">
+                                    <div class="card-body d-flex justify-content-center flex-column">
+                                        <p class="card-text primary_color">${result[0].description[1]}</p>
+                                        <img class="mb-3 mt-4 mx-auto" style="width: 80px;" src="assets/img/sat.png" alt=""/>
+                                        <p class="text-center primary_color">Datum održavanja:<br/>${result[0].date}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 bg-white">
+                                <img style="height: 250px;" class="w-100 mb-4" src="${result[0].gallery[0]}" alt=""/>
+                                <img style="height: 250px;" class="w-100" src="${result[0].gallery[1]}" alt=""/>
+                                <p class="text-left">
+                                    <span class="text-uppercase">Organizatori manifestacije</span><br/>
+                                    ${result[0].organizers}
+                                </p>
+                            </div>
+                            <div class="col-6 bg-white">
+                                <img style="height: 250px;" class="w-100 mb-4" src="${result[0].gallery[2]}" alt=""/>
+                                <img style="height: 250px;" class="w-100" src="${result[0].gallery[3]}" alt=""/>
+                                <p class="text-right">
+                                    <span class="text-uppercase">Kontakt</span><br/>
+                                    ${result[0].contact}
+                                </p>
+                            </div>
                         </div>
-                    </div>`;
+                    </div>
+                </div>
+                <a href="events.html" id="back" class="btn btn-danger"><</a>`;
                 // Filling in Content while erasing everything else
                 events_container.innerHTML = '';
                 event_container.innerHTML = html;

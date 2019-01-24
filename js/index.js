@@ -7,7 +7,7 @@ $(document).ready(() => {
     render_news();
     function render_news(){
         $.ajax({
-            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/news.json`,
+            url: `https://begovicnikola.github.io/PijacaApp/assets/json/news.json`,
             dataType: 'json',
             success: (data) => {
                 let html = ``;
@@ -29,6 +29,12 @@ $(document).ready(() => {
             }
         });
     }
+
+    // Scroll Reveal Effects for Featured Items
+    ScrollReveal().clean('#logo');
+    ScrollReveal().reveal('#logo', { delay: 800, duration: 700, origin: 'top', distance: '300px' });
+    ScrollReveal().clean('.nav-item');
+    ScrollReveal().reveal('.nav-item', { interval:200, delay: 1200, duration: 1200, origin: 'top', distance: '200px' });
 
     $('#cart').click(() => {
         $.MessageBox(`

@@ -8,7 +8,7 @@ $(document).ready(() => {
     render_products();
     function render_products(){
         $.ajax({
-            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/products.json`,
+            url: `https://begovicnikola.github.io/PijacaApp/assets/json/products.json`,
             dataType: 'json',
             success: (data) => {
                 let html = ``;
@@ -43,7 +43,7 @@ $(document).ready(() => {
     // Render Single Product
     function render_product(product_name){
         $.ajax({
-            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/product.json`,
+            url: `https://begovicnikola.github.io/PijacaApp/assets/json/product.json`,
             dataType: 'json',
             success: (data) => {
                 let result = data.filter(e => e.name == product_name);
@@ -140,7 +140,7 @@ $(document).ready(() => {
             filter.checked = !filter.checked;
       
             $.ajax({
-                url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/products.json`,
+                url: `https://begovicnikola.github.io/PijacaApp/assets/json/products.json`,
                 dataType: 'json',
                 success: (data) => {
 
@@ -217,7 +217,7 @@ $(document).ready(() => {
         let html = ``;
         if (search_input.toLowerCase()) {
             $.ajax({
-                url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/products.json`,
+                url: `https://begovicnikola.github.io/PijacaApp/assets/json/products.json`,
                 dataType: 'json',
                 success: (data) => {
                     let result = data.filter(product => product.name.startsWith(search_input.toLowerCase()));

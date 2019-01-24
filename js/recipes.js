@@ -9,7 +9,7 @@ $(document).ready(() => {
     render_recipes();
     function render_recipes(){
         $.ajax({
-            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/recipes.json`,
+            url: `https://begovicnikola.github.io/PijacaApp/assets/json/recipes.json`,
             dataType: 'json',
             success: (data) => {
                 let html = ``;
@@ -21,7 +21,8 @@ $(document).ready(() => {
                                 <img style="height: 340px;" class="card-img-top" src="${recipe.banner}" alt="${recipe.title}">
                             </div>
                             <div class="card-body px-0 text-justified">
-                                <h5 class="card-title">${recipe.title}</h5>
+                                <h5 class="px-1 card-title">${recipe.title}</h5>
+                                <p class="px-1 text-justify">${recipe.description[0]}</p>
                                 <span class="recipes_item w-100 btn primary_background text-white" data-product="${recipe.id}">Više o ovome...</span>
                             </div>
                         </div>
@@ -45,24 +46,76 @@ $(document).ready(() => {
     // Render Single Product
     function render_recipe(recipe_id){
         $.ajax({
-            url: `http://www.int-pg.guidanceguide.com/MarketApp/assets/json/recipes.json`,
+            url: `https://begovicnikola.github.io/PijacaApp/assets/json/recipes.json`,
             dataType: 'json',
             success: (data) => {
                 let result = data.filter(e => e.id == recipe_id);
                 console.log(result);
                 let html = ``;
                 html += `
-                    <div class="col-12">
-                        <img class="w-100" src="${result[0].banner}" alt="${result[0].title}"/>
+                <div class="col-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 px-0 bg-white">
+                                <div class="card p-3 border-0">
+                                    <div class="card-body px-0 pt-0">
+                                        <h3 class="primary_color">${result[0].title}</h3>
+                                        <p class="pt-3 pb-2 card-text text-justify">${result[0].description[0]}</p>
+                                    </div>
+                                    <img src="${result[0].banner}" alt="" class="w-100 border"/>
+                                </div>
+                            </div>
+                            <div class="col-6 px-0 bg-white">
+                                <div class="card border-0">
+                                    <div class="card-body d-flex justify-content-center flex-column">
+                                        <h5 class="mb-4 primary_color">Priprema:</h5>
+                                        <p class="card-text">${result[0].description[1]}</p>
+                                        <h5 class="mt-4 primary_color">Sastojci:</h5>
+                                        <ul class="list-group list-group-flush">
+                                            ${recipes_steps_render(result[0].ingredients)}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 px-0 bg-white">
+                                <div class="card border-0">
+                                    <div class="card-body d-flex justify-content-center flex-column">
+                                        <div class="d-flex justify-content-center">
+                                            <img style="width: 120px; height: 120px;" src="assets/img/escajg.png" alt=""/>
+                                        </div>
+                                        <h5 class="mb-4 primary_color">Koraci:</h5>
+                                        <ul class="list-group list-group-flush">
+                                            ${recipes_steps_render(result[0].steps)}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 px-0 bg-white">
+                                <div class="card border-0">
+                                    <div class="d-flex justify-content-between">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12">
-                        <h2>${result[0].title}</h2>
-                        <p>${result[0].description}</p>
-                    </div>`;
+                </div>
+                <a href="recipes.html" id="back" class="btn btn-danger"><</a>`;
                 // Filling in Content while erasing everything else
                 recipes_container.innerHTML = '';
                 recipe_container.innerHTML = html;
                 recipes_header.style.display = 'none';
+                // Render of Steps of Preparation
+                function recipes_steps_render(arrays){
+                    let html = '';
+                    arrays.forEach(function(e){
+                        html += `<li class="list-group-item pl-2">${e}</li>`;
+                    });
+                    return html;
+                }
+                // Back Button
+
+                
             }
         });
     }

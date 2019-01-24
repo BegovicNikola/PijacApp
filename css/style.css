@@ -39,6 +39,12 @@ ul{
     background-color: #667395;
 }
 
+#back{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
 /* Checkbox Styling -> Start */
 .checkbox_holder {
     height: 50px;
